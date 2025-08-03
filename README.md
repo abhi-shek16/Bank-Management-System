@@ -4,7 +4,7 @@
 
 Developed a command-line based banking system using C++ that simulates real-world financial operations for both **Savings** and **Current** accounts. Implemented core Object-Oriented Programming concepts including **inheritance**, **polymorphism**, and **abstraction** to create modular account types.
 
-Utilized **STL containers** like `map` and `vector` for efficient account management. Optional support for **file handling** allows persistent data storage. Features include:
+Utilized **STL containers** like `map` and `vector` for efficient account management. Features include:
 
 - Interest calculation for Savings accounts
 - Overdraft protection for Current accounts
@@ -15,18 +15,18 @@ Utilized **STL containers** like `map` and `vector` for efficient account manage
 - C++
 - Object-Oriented Programming (OOP)
 - STL (`map`, `vector`)
-- File Handling (optional)
-- Operating System Concepts (for file/IO control)
+- OS Concepts
+- File Handling (can be added)
 
 ## 🚀 Features
 
-- Create and manage multiple user accounts
-- Account type: Savings and Current
-- Deposit and withdrawal functionality
-- Interest calculation logic
-- Overdraft protection
-- Unique account ID tracking using `map`
-- View transaction history (optional: via file handling)
+- Create Savings or Current accounts
+- Deposit and withdraw money
+- Interest calculation for Savings accounts (4% static)
+- Overdraft limit (₹10,000) for Current accounts
+- Unique account number tracking using `map`
+- Display account details
+- View full transaction history
 
 ## 🔧 How to Compile and Run
 
